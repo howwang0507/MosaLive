@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "original": "こんにちは、配信へようこそ。",
+    "translation": "大家好，歡迎來到直播。",
+    "reference_status": "draft_not_human_verified",
+    "audio": null
+  },
+  {
+    "id": 2,
+    "original": "今日は新しいゲームを遊びます。",
+    "translation": "今天要玩新的遊戲。",
+    "reference_status": "draft_not_human_verified",
+    "audio": null
+  },
+  {
+    "id": 3,
+    "original": "音はちゃんと聞こえますか。",
+    "translation": "聲音聽得清楚嗎？",
+    "reference_status": "draft_not_human_verified",
+    "audio": null
+  },
+  {
+    "id": 4,
+    "original": "少し待ってください。",
+    "translation": "請稍等一下。",
+    "reference_status": "draft_not_human_verified",
+    "audio": null
+  },
+  {
+    "id": 5,
+    "original": "右側の扉を開けてください。",
+    "translation": "請打開右邊的門。",
+    "reference_status": "draft_not_human_verified",
+    "audio": null
+  },
+  {
+    "id": 6,
+    "original": "あと三十秒で始まります。",
+    "translation": "再過三十秒就要開始。",
+    "reference_status": "draft_not_human_verified",
+    "audio": null
+  },
+  {
+    "id": 7,
+    "original": "これはとても難しいですね。",
+    "translation": "這個真的很難呢。",
+    "reference_status": "draft_not_human_verified",
+    "audio": null
+  },
+  {
+    "id": 8,
+    "original": "もう一度やってみましょう。",
+    "translation": "再試一次吧。",
+    "reference_status": "draft_not_human_verified",
+    "audio": null
+  },
+  {
+    "id": 9,
+    "original": "コメントを読んでいます。",
+    "translation": "我正在看留言。",
+    "reference_status": "draft_not_human_verified",
+    "audio": null
+  },
+  {
+    "id": 10,
+    "original": "今日はありがとうございました。",
+    "translation": "謝謝大家今天的陪伴。",
+    "reference_status": "draft_not_human_verified",
+    "audio": null
+  }
+]

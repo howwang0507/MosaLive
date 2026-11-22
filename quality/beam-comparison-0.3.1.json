@@ -1,0 +1,209 @@
+{
+  "note": "Same recorded final segment boundaries. Sequential beam 1 then 3. Decode timing includes initial warmup; not live latency. No reference text supplied to recognizer.",
+  "results": [
+    {
+      "id": "en-real-0",
+      "language": "en",
+      "source": "However, due to the slow communication channels, styles in the west could lag behind by 25 to 30 year.",
+      "settings": {
+        "1": {
+          "text": "However, due to the slow communication channels. styles in the West could lag behind by 25 to 30 years.",
+          "cer": 0.012345679012345678,
+          "decode_seconds": 1.1018217000000732
+        },
+        "3": {
+          "text": "However, due to the slow communication channels. styles in the West could lag behind by 25 to 30 years.",
+          "cer": 0.012345679012345678,
+          "decode_seconds": 0.38459080000006907
+        }
+      }
+    },
+    {
+      "id": "en-real-1",
+      "language": "en",
+      "source": "All nouns, alongside the word Sie for you, always begin with a capital letter, even in the middle of a sentence.",
+      "settings": {
+        "1": {
+          "text": "All nouns alongside the world say for you. always begin with a capital letter even in the middle of a sentence.",
+          "cer": 0.03409090909090909,
+          "decode_seconds": 0.30089659999975993
+        },
+        "3": {
+          "text": "All nouns alongside the world say for you. always begin with a capital letter, even in the middle of a sentence.",
+          "cer": 0.03409090909090909,
+          "decode_seconds": 0.36362560000020494
+        }
+      }
+    },
+    {
+      "id": "en-real-2",
+      "language": "en",
+      "source": "To the north and within easy reach is the romantic and fascinating town of Sintra and which was made famous to foreigners after a glowing account of its splendours recorded by Lord Byron.",
+      "settings": {
+        "1": {
+          "text": "to the north and within easy reach is a romantic and fascinating town of Cintra and which was made famous. to foreigners after a glowing account of its splinter is recorded by Lord Byron.",
+          "cer": 0.05844155844155844,
+          "decode_seconds": 0.383849199999986
+        },
+        "3": {
+          "text": "to the north and within easy reach is a romantic and fascinating town of Cintra and which was made famous. to foreigners after a glowing account of its splinter is recorded by Lord Byron.",
+          "cer": 0.05844155844155844,
+          "decode_seconds": 0.4723675000000185
+        }
+      }
+    },
+    {
+      "id": "en-real-3",
+      "language": "en",
+      "source": "The cabbage juice changes color depending on how acidic or basic (alkaline) the chemical is.",
+      "settings": {
+        "1": {
+          "text": "The cabbage juice changes color depending on how acidic, basic alkaline the chemical is.",
+          "cer": 0.02666666666666667,
+          "decode_seconds": 0.20044720000009875
+        },
+        "3": {
+          "text": "The cabbage juice changes color depending on how acidic, basic alkaline the chemical is.",
+          "cer": 0.02666666666666667,
+          "decode_seconds": 0.242245099999991
+        }
+      }
+    },
+    {
+      "id": "ja-real-0",
+      "language": "ja",
+      "source": "インターネットで「敵対的環境コース」について検索すると、おそらく現地企業の住所が出てくるでしょう。",
+      "settings": {
+        "1": {
+          "text": "インターネットで適対的環境構成について検索すると、おそらく現地企業の重所が出てくる… てくるでしょう",
+          "cer": 0.17777777777777778,
+          "decode_seconds": 0.5222833000000264
+        },
+        "3": {
+          "text": "インターネットで適帯的環境構成について検索すると、おそらく現地企業の重所が出てくる… てくるでしょう",
+          "cer": 0.2,
+          "decode_seconds": 0.611581299999898
+        }
+      }
+    },
+    {
+      "id": "ja-real-1",
+      "language": "ja",
+      "source": "また、北側に行くなら世界的に有名なマリア像の聖地であるファティマの聖母の聖域（神社）を訪れましょう。",
+      "settings": {
+        "1": {
+          "text": "また北側に行くなら世界的に有名なマリアゾーの聖地であるファティマの聖母の聖母。 正域、神社を訪れましょう",
+          "cer": 0.08695652173913043,
+          "decode_seconds": 0.43950249999988955
+        },
+        "3": {
+          "text": "また、北側に行くなら、世界的に有名なマリアゾーの聖地であるファティマの聖母の聖母。 神社を訪れましょう",
+          "cer": 0.06521739130434782,
+          "decode_seconds": 0.49391259999993053
+        }
+      }
+    },
+    {
+      "id": "ja-real-2",
+      "language": "ja",
+      "source": "バルセロナの公用語はカタルーニャ語とスペイン語です。約半数がカタルーニャ語を好み、大多数がカタルーニャ語を理解し、ほぼ全員がスペイン語を知っています。",
+      "settings": {
+        "1": {
+          "text": "バルセアの公用場はカタルネゴとスペインコです。約半数がカタルネゴを好み、大多数がカタルネゴ。 を理解し、ほぼ全員がスペインを知っています。",
+          "cer": 0.23943661971830985,
+          "decode_seconds": 0.5284018999998352
+        },
+        "3": {
+          "text": "バルセアの公用場はカタルウネゴとスペインコです。約半数がカタルウネゴを好み、大多数がカタルウネゴ。 解し、ほぼ全員がスペインを知っています。",
+          "cer": 0.2676056338028169,
+          "decode_seconds": 0.6442775000000438
+        }
+      }
+    },
+    {
+      "id": "ja-real-3",
+      "language": "ja",
+      "source": "その長い顎には70本以上の鋭い歯が並び、口蓋には別の歯列があり、つまりここを通ったら逃げ道はないということになります。",
+      "settings": {
+        "1": {
+          "text": "その長い箱には70本以上の数といはが並び、公外にはウェスの指列があり、つまりここを通ったら ったらねひめちゃうないということになります",
+          "cer": 0.3392857142857143,
+          "decode_seconds": 0.4241864999999052
+        },
+        "3": {
+          "text": "その長いやごには70本以上の数といはが並び、公外にはウェスの指列があり、つまりここを通ったら ったらねひめちゃうないということになります",
+          "cer": 0.35714285714285715,
+          "decode_seconds": 0.5168157000002793
+        }
+      }
+    },
+    {
+      "id": "ko-real-0",
+      "language": "ko",
+      "source": "다리 밑 수직 간격은 15미터이며, 공사는 2011년 8월에 마무리되었으며, 해당 다리의 통행금지는 2017년 3월까지이다.",
+      "settings": {
+        "1": {
+          "text": "다리미 수직 간격은 15m이며 공사는 2011년 8월에 마무리되었으며 해당 다리의 통행 금지는 2017년 3월까지이다.",
+          "cer": 0.05660377358490566,
+          "decode_seconds": 0.43736260000014227
+        },
+        "3": {
+          "text": "다리미 수직 간격은 15m이며 공사는 2011년 8월에 마무리되었으며 해당 다리의 통행 금지는 2017년 3월까지이다.",
+          "cer": 0.05660377358490566,
+          "decode_seconds": 0.5999636000001374
+        }
+      }
+    },
+    {
+      "id": "ko-real-1",
+      "language": "ko",
+      "source": "델 포트로가 2세트에서 먼저 어드밴티지를 얻었지만 6 대 6이 된 후 다시 타이 브레이크가 필요했다.",
+      "settings": {
+        "1": {
+          "text": "델포트로가 2세트에서 먼저 어드베티즈를 얻었지만 6대6이 된 후 다시 타임 타이브레이크가 필요했다",
+          "cer": 0.0975609756097561,
+          "decode_seconds": 0.4713091000000986
+        },
+        "3": {
+          "text": "델포트로가 2세트에서 먼저 어드베티즈를 얻었지만 6대6이 된 후 다시 타임 타이브레이크가 필요했다",
+          "cer": 0.0975609756097561,
+          "decode_seconds": 0.5384443000002648
+        }
+      }
+    },
+    {
+      "id": "ko-real-2",
+      "language": "ko",
+      "source": "염소 사육은 대략 일만 년 전에 이란의 자그로스산맥에서 시작한 것으로 보입니다.",
+      "settings": {
+        "1": {
+          "text": "염소사육은 대략 1만 년 전에 이란의 자그로스 산맥에서 시작한 것으로 보입니다.",
+          "cer": 0.030303030303030304,
+          "decode_seconds": 0.2877704000002268
+        },
+        "3": {
+          "text": "염소사육은 대략 1만 년 전에 이란의 자그로스 산맥에서 시작한 것으로 보입니다.",
+          "cer": 0.030303030303030304,
+          "decode_seconds": 0.2925281999998788
+        }
+      }
+    },
+    {
+      "id": "ko-real-3",
+      "language": "ko",
+      "source": "겨울에 북발트해를 건널 경우에는 빙판을 통과하면서 꽤 끔찍한 소음이 발생하기 때문에, 객실의 위치를 확인하는 것이 좋다.",
+      "settings": {
+        "1": {
+          "text": "겨울에 북발트해를 건넬 경우에는 빙판을 통과하면서 꽤 끔찍한 소음이 발생하기도... 때문에 객실의 위치를 확인하는 것이 좋다.",
+          "cer": 0.04,
+          "decode_seconds": 0.46230979999995725
+        },
+        "3": {
+          "text": "겨울에 북발트해를 건넬 경우에는 빙판을 통과하면서 꽤 끔찍한 소음이 발생하기도... 생각이기 때문에 객실의 위치를 확인하는 것이 좋다.",
+          "cer": 0.12,
+          "decode_seconds": 0.5549501000000419
+        }
+      }
+    }
+  ]
+}

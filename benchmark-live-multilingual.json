@@ -1,0 +1,556 @@
+{
+  "note": "Synthetic samples; excludes audio capture and rendering; first run excluded from median.",
+  "health": {
+    "app": "mosasub-live-local",
+    "configured": true,
+    "ready": true,
+    "models": {
+      "app": "mosasub-local-models",
+      "ready": true,
+      "error": null,
+      "asr": "small",
+      "translation": "qwen2.5:7b",
+      "device": "cuda",
+      "language": "auto",
+      "vad": "silero",
+      "backend": "faster-whisper+ollama",
+      "local": true
+    },
+    "status": "local server",
+    "modelVerified": false
+  },
+  "results": [
+    {
+      "sample": "ja",
+      "display": "both",
+      "median_warm_ms": 757.6,
+      "runs": [
+        {
+          "wall_ms": 819.682899998952,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "各位，你好。今天，我將把日語的直播翻譯成中文。",
+            "draft_translation": "各位，你好。今天，我將把日語的直播翻譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "配信",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 202.6873999999989,
+            "translation_ms": 614.7613000000019,
+            "first_caption_ms": 485.202699999998,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 743.4624999987136,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "各位，你好。今天，我將把日語的直播翻譯成中文。",
+            "draft_translation": "各位，你好。今天，我將把日語的直播翻譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "配信",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 191.5147999999972,
+            "translation_ms": 550.1682000000001,
+            "first_caption_ms": 439.3900999999969,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 769.5378999997047,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "各位，你好。今天，我將把日語的直播翻譯成中文。",
+            "draft_translation": "各位，你好。今天，我將把日語的直播翻譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "配信",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 190.8367999999973,
+            "translation_ms": 576.7381999999998,
+            "first_caption_ms": 456.27390000000014,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 757.5858000000153,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "各位，你好。今天，我將把日語的直播翻譯成中文。",
+            "draft_translation": "各位，你好。今天，我將把日語的直播翻譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "配信",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 196.83350000000064,
+            "translation_ms": 558.3612999999968,
+            "first_caption_ms": 451.6892999999982,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "ja",
+      "display": "original",
+      "median_warm_ms": 184.6,
+      "runs": [
+        {
+          "wall_ms": 194.8314000001119,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 192.93530000000464,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 184.02640000022075,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 182.5112999999983,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 184.59339999935764,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 183.15350000000035,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 190.3610999997909,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 188.91960000000108,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "en",
+      "display": "both",
+      "median_warm_ms": 715.0,
+      "runs": [
+        {
+          "wall_ms": 731.3547000012477,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "各位好，今天我們正在測試自動語言辨識以及中文字幕。",
+            "draft_translation": "各位好，今天我們正在測試自動語言辨識以及中文字幕。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [],
+            "asr_ms": 173.3478000000032,
+            "translation_ms": 556.1699000000008,
+            "first_caption_ms": 437.2157999999981,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 715.0132000006124,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "各位好，今天我們正在測試自動語言辨識和中文字幕。",
+            "draft_translation": "各位好，今天我們正在測試自動語言辨識和中文字幕。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [],
+            "asr_ms": 164.3856999999989,
+            "translation_ms": 548.857600000003,
+            "first_caption_ms": 413.9705000000031,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 722.6107000005868,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "各位好，今天我們正在測試自動語言辨識和中文字幕。",
+            "draft_translation": "各位好，今天我們正在測試自動語言辨識和中文字幕。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [],
+            "asr_ms": 171.76100000000588,
+            "translation_ms": 549.1500999999989,
+            "first_caption_ms": 436.7671000000046,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 685.8164000004763,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "各位好，今天我們正在測試自動語言辨識和中文字幕。",
+            "draft_translation": "各位好，今天我們正在測試自動語言辨識和中文字幕。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [],
+            "asr_ms": 171.51049999999668,
+            "translation_ms": 512.5497999999934,
+            "first_caption_ms": 417.6531999999934,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "en",
+      "display": "original",
+      "median_warm_ms": 171.8,
+      "runs": [
+        {
+          "wall_ms": 161.35469999971974,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 159.45960000000196,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 171.59480000009353,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 170.3038000000015,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 171.79749999922933,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 170.280399999996,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 172.79380000036326,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 171.15260000000126,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "ko",
+      "display": "both",
+      "median_warm_ms": 677.7,
+      "runs": [
+        {
+          "wall_ms": 645.3208999992057,
+          "result": {
+            "original": "여러분 안녕하세요. 오늘은 한국어 방송을 중국어로 번역합니다.",
+            "translation": "各位您好。今天我們將把韓語直播翻譯成中文。",
+            "draft_translation": "各位您好。今天我們將把韓語直播翻譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "방송",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 175.26320000000123,
+            "translation_ms": 467.95390000000043,
+            "first_caption_ms": 428.1044000000038,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 677.7390999995987,
+          "result": {
+            "original": "여러분 안녕하세요. 오늘은 한국어 방송을 중국어로 번역합니다.",
+            "translation": "各位您好。今天我們將把韓語直播翻譯成中文。",
+            "draft_translation": "各位您好。今天我們將把韓語直播翻譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "방송",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 173.48080000000482,
+            "translation_ms": 502.5368000000017,
+            "first_caption_ms": 439.07150000000547,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 694.6516999996675,
+          "result": {
+            "original": "여러분 안녕하세요. 오늘은 한국어 방송을 중국어로 번역합니다.",
+            "translation": "各位您好。今天我們將把韓語直播翻譯成中文。",
+            "draft_translation": "各位您好。今天我們將把韓語直播翻譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "방송",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 176.90020000000368,
+            "translation_ms": 515.875199999995,
+            "first_caption_ms": 458.2733999999982,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 674.0093999997043,
+          "result": {
+            "original": "여러분 안녕하세요. 오늘은 한국어 방송을 중국어로 번역합니다.",
+            "translation": "各位您好。今天我們將把韓語直播翻譯成中文。",
+            "draft_translation": "各位您好。今天我們將把韓語直播翻譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "방송",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 179.69580000000133,
+            "translation_ms": 492.64190000000235,
+            "first_caption_ms": 450.93970000000263,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "ko",
+      "display": "original",
+      "median_warm_ms": 198.2,
+      "runs": [
+        {
+          "wall_ms": 202.9074000001856,
+          "result": {
+            "original": "여러분 안녕하세요. 오늘은 한국어 방송을 중국어로 번역합니다.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 201.4114999999947,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 188.46409999969183,
+          "result": {
+            "original": "여러분 안녕하세요. 오늘은 한국어 방송을 중국어로 번역합니다.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 186.93180000000575,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 211.39080000102695,
+          "result": {
+            "original": "여러분 안녕하세요. 오늘은 한국어 방송을 중국어로 번역합니다.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 209.95279999999912,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 198.2253000005585,
+          "result": {
+            "original": "여러분 안녕하세요. 오늘은 한국어 방송을 중국어로 번역합니다.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 196.6522000000041,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "tone",
+      "display": "both",
+      "median_warm_ms": 8.3,
+      "runs": [
+        {
+          "wall_ms": 9.146399999735877,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 7.383699999998498,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 8.341500000824453,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 6.828000000001339,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 8.519299999534269,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 7.038300000000163,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 8.118099998682737,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 6.716300000000047,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "tone",
+      "display": "original",
+      "median_warm_ms": 8.0,
+      "runs": [
+        {
+          "wall_ms": 8.523599999534781,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 6.969199999999546,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 7.9544000000169035,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 6.529300000001967,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 8.06439999905706,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 6.718499999995402,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 7.813199999873177,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 6.451099999998405,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "note": "Synthetic samples; excludes audio capture and rendering; first run excluded from median.",
+  "health": {
+    "app": "mosasub-live-local",
+    "configured": true,
+    "ready": true,
+    "models": {
+      "app": "mosasub-local-models",
+      "ready": true,
+      "error": null,
+      "asr": "small",
+      "translation": "qwen2.5:3b",
+      "device": "cuda",
+      "language": "auto",
+      "vad": "silero",
+      "backend": "faster-whisper+ollama",
+      "local": true
+    },
+    "status": "local server",
+    "modelVerified": false
+  },
+  "results": [
+    {
+      "sample": "ja",
+      "display": "both",
+      "median_warm_ms": 835.8,
+      "runs": [
+        {
+          "wall_ms": 848.7824000003457,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "各位、こんにちは。今天，我將把日本語的直播轉譯成中文。",
+            "draft_translation": "各位、こんにちは。今天，我將把日本語的直播轉譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "配信",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 295.84300000000076,
+            "translation_ms": 550.5093999999954,
+            "first_caption_ms": 606.8661999999968,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 871.668599998884,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "各位、こんにちは。今天，我將把日本語的直播轉譯成中文。",
+            "draft_translation": "各位、こんにちは。今天，我將把日本語的直播轉譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "配信",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 287.4913000000015,
+            "translation_ms": 582.1072000000058,
+            "first_caption_ms": 576.2039000000004,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 835.7997000002797,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "各位、こんにちは。今天，我將把日本語的直播轉譯成中文。",
+            "draft_translation": "各位、こんにちは。今天，我將把日本語的直播轉譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "配信",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 309.3594000000012,
+            "translation_ms": 524.0297999999966,
+            "first_caption_ms": 595.4910000000018,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 782.1246000003157,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "各位、こんにちは。今天，我將把日本語的直播轉譯成中文。",
+            "draft_translation": "各位、こんにちは。今天，我將把日本語的直播轉譯成中文。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [
+              {
+                "ja": "配信",
+                "zh": "直播"
+              }
+            ],
+            "asr_ms": 275.0616000000009,
+            "translation_ms": 505.2337999999945,
+            "first_caption_ms": 547.8407999999981,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "ja",
+      "display": "original",
+      "median_warm_ms": 273.4,
+      "runs": [
+        {
+          "wall_ms": 301.7505000007077,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 299.73019999999815,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 273.3709000003728,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 271.74779999999737,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 293.929700001172,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 292.47260000000097,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 268.69079999960377,
+          "result": {
+            "original": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 266.5653999999995,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "en",
+      "display": "both",
+      "median_warm_ms": 740.1,
+      "runs": [
+        {
+          "wall_ms": 705.2794999999605,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "大家好，今天我們將測試自動語言檢測以及中文字幕。",
+            "draft_translation": "大家好，今天我們將測試自動語言檢測以及中文字幕。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [],
+            "asr_ms": 234.6206999999995,
+            "translation_ms": 468.72060000000056,
+            "first_caption_ms": 532.226499999997,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 698.9959000002273,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "大家好，今天我們將測試自動語言檢測和中文字幕。",
+            "draft_translation": "大家好，今天我們將測試自動語言檢測和中文字幕。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [],
+            "asr_ms": 235.20010000000184,
+            "translation_ms": 461.9746000000014,
+            "first_caption_ms": 528.7609000000011,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 740.1484000001801,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "大家好，今天我們將測試自動語言檢測和中文字幕。",
+            "draft_translation": "大家好，今天我們將測試自動語言檢測和中文字幕。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [],
+            "asr_ms": 264.2765999999974,
+            "translation_ms": 474.17609999999695,
+            "first_caption_ms": 569.678399999997,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 765.7527000010305,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "大家好，今天我們將測試自動語言檢測和中文字幕。",
+            "draft_translation": "大家好，今天我們將測試自動語言檢測和中文字幕。",
+            "reviewed": false,
+            "review_ms": 0,
+            "context_count": 0,
+            "glossary_terms": [],
+            "asr_ms": 288.1206999999995,
+            "translation_ms": 475.8813000000009,
+            "first_caption_ms": 594.6126000000004,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "en",
+      "display": "original",
+      "median_warm_ms": 247.5,
+      "runs": [
+        {
+          "wall_ms": 261.1587999999756,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 259.4570999999996,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 247.50700000004144,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 245.79409999999916,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 245.41639999915787,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 243.8781999999992,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 262.12909999958356,
+          "result": {
+            "original": "Hello everyone, today we are testing automatic language detection and Chinese subtitles.",
+            "translation": "",
+            "source_only": true,
+            "asr_ms": 260.6454999999987,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "tone",
+      "display": "both",
+      "median_warm_ms": 9.7,
+      "runs": [
+        {
+          "wall_ms": 10.9095999996498,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 8.216699999997218,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 9.687300000223331,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 7.660499999998137,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 9.641900000133319,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 7.886600000005274,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 10.027000000263797,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 8.529999999998836,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "sample": "tone",
+      "display": "original",
+      "median_warm_ms": 9.6,
+      "runs": [
+        {
+          "wall_ms": 9.410599999682745,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 7.854000000006636,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 9.51580000037211,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 7.876600000003236,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 10.047000001577544,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 8.063499999996566,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        },
+        {
+          "wall_ms": 9.560600001350394,
+          "result": {
+            "original": "",
+            "translation": "",
+            "asr_ms": 7.775000000001455,
+            "translation_ms": 0,
+            "mode": "real",
+            "type": "final"
+          }
+        }
+      ]
+    }
+  ]
+}

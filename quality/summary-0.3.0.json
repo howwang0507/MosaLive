@@ -1,0 +1,158 @@
+{
+  "baseline-0.2.0": {
+    "all": {
+      "cases": 10,
+      "pooled_cer": 0.0499,
+      "first_source_median_ms": 2019.6,
+      "first_translation_median_ms": 3196.7,
+      "after_speech_median_ms": 1284.5,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    },
+    "en": {
+      "cases": 2,
+      "pooled_cer": 0.1333,
+      "first_source_median_ms": 2044.4,
+      "first_translation_median_ms": 3208.8,
+      "after_speech_median_ms": 1307.7,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    },
+    "ja": {
+      "cases": 3,
+      "pooled_cer": 0.0256,
+      "first_source_median_ms": 2021.0,
+      "first_translation_median_ms": 3717.0,
+      "after_speech_median_ms": 1424.6,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    },
+    "ko": {
+      "cases": 3,
+      "pooled_cer": 0.0,
+      "first_source_median_ms": 2016.6,
+      "first_translation_median_ms": 3687.2,
+      "after_speech_median_ms": 1357.8,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    }
+  },
+  "synthetic-0.3.0": {
+    "all": {
+      "cases": 10,
+      "pooled_cer": 0.0499,
+      "first_source_median_ms": 1236.4,
+      "first_translation_median_ms": 2836.0,
+      "after_speech_median_ms": 1394.3,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    },
+    "en": {
+      "cases": 2,
+      "pooled_cer": 0.1333,
+      "first_source_median_ms": 1176.1,
+      "first_translation_median_ms": 2701.1,
+      "after_speech_median_ms": 1347.0,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    },
+    "ja": {
+      "cases": 3,
+      "pooled_cer": 0.0256,
+      "first_source_median_ms": 1396.8,
+      "first_translation_median_ms": 2868.4,
+      "after_speech_median_ms": 1523.9,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    },
+    "ko": {
+      "cases": 3,
+      "pooled_cer": 0.0,
+      "first_source_median_ms": 1123.0,
+      "first_translation_median_ms": 2811.2,
+      "after_speech_median_ms": 1249.0,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    }
+  },
+  "real-auto-0.3.0": {
+    "all": {
+      "cases": 12,
+      "pooled_cer": 0.0895,
+      "first_source_median_ms": 1387.5,
+      "first_translation_median_ms": null,
+      "after_speech_median_ms": 793.0,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    },
+    "en": {
+      "cases": 4,
+      "pooled_cer": 0.0377,
+      "first_source_median_ms": 1379.8,
+      "first_translation_median_ms": null,
+      "after_speech_median_ms": 803.5,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    },
+    "ja": {
+      "cases": 4,
+      "pooled_cer": 0.211,
+      "first_source_median_ms": 1394.4,
+      "first_translation_median_ms": null,
+      "after_speech_median_ms": 793.0,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    },
+    "ko": {
+      "cases": 4,
+      "pooled_cer": 0.0565,
+      "first_source_median_ms": 1361.7,
+      "first_translation_median_ms": null,
+      "after_speech_median_ms": 754.8,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    }
+  },
+  "real-native-0.3.0": {
+    "all": {
+      "cases": 12,
+      "pooled_cer": 0.2421,
+      "first_source_median_ms": 1253.1,
+      "first_translation_median_ms": null,
+      "after_speech_median_ms": 682.5,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": [
+        "ko-real-3"
+      ]
+    },
+    "en": {
+      "cases": 4,
+      "pooled_cer": 0.1608,
+      "first_source_median_ms": 1263.4,
+      "first_translation_median_ms": null,
+      "after_speech_median_ms": 694.7,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    },
+    "ja": {
+      "cases": 4,
+      "pooled_cer": 0.2844,
+      "first_source_median_ms": 981.8,
+      "first_translation_median_ms": null,
+      "after_speech_median_ms": 596.3,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": []
+    },
+    "ko": {
+      "cases": 4,
+      "pooled_cer": 0.3729,
+      "first_source_median_ms": 1317.0,
+      "first_translation_median_ms": null,
+      "after_speech_median_ms": 598.4,
+      "dropped_audio_ms": 0,
+      "empty_speech_cases": [
+        "ko-real-3"
+      ]
+    }
+  }
+}

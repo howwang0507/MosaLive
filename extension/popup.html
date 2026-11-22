@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-Hant"><meta charset="utf-8"><title>MosaSub 收音控制</title>
+<link rel="stylesheet" href="popup.css">
+<main><header><small>MOSASUB LIVE</small><h1>專心看，輕鬆聽懂。</h1></header>
+<p id="state" role="status">正在確認收音狀態…</p>
+<p id="activity" role="status"></p>
+<section class="source-panel" aria-label="收音來源"><label for="source">選擇影音分頁</label><select id="source"></select>
+<p id="hint">收取所選分頁的聲音。</p>
+<div class="actions"><button id="start" disabled>翻譯此分頁</button><button id="stop" disabled>停止收音</button></div>
+<p id="error" role="alert"></p></section>
+<section aria-label="快速控制"><div class="actions"><button id="recover" disabled>重新接續字幕</button><button id="through">切換點擊穿透</button></div><p class="help">字幕卡住時可重新接續，會略過積壓音訊。</p>
+<label for="preset">使用情境</label><select id="preset"><option value="light">省運算：繁中定稿、關閉二次校對</option><option value="read">閱讀：繁中定稿、自動停留</option><option value="learn">學語言：雙字幕、停留 8 秒</option><option value="original">僅原文：省去翻譯推論</option></select><button id="apply-preset">套用至收音分頁</button><p id="preset-status" role="status"></p></section>
+<p class="shortcuts"><kbd>Alt S</kbd> 收音　<kbd>Alt C</kbd> 清除　<kbd>Alt D</kbd> 切換語言</p>
+<details><summary>服務狀態與版本</summary><button id="check-service">檢查本機服務</button><p id="service-status" role="status"></p></details>
+<details><summary>本次收音統計</summary><pre id="session-stats">尚未收音</pre><p>保留最近 60 分鐘。字幕間隔包含自然停頓，不代表翻譯耗時。</p></details>
+<details><summary>修正一句字幕</summary><select id="recent-caption" aria-label="最近字幕"></select><select id="report-kind" aria-label="錯誤類型"><option value="asr">原文辨識錯誤</option><option value="translation">中文翻譯錯誤</option></select><label for="correction">正確內容（選填）</label><textarea id="correction" maxlength="2000" rows="3" placeholder="寫下你認為正確的原文或中文"></textarea><button id="report-caption">保存此句回報</button><div class="actions"><button id="view-reports">查看回報</button><button id="clear-reports">清除所有回報</button></div><pre id="reports"></pre><p id="report-status" role="status">最多 30 筆，只存本機；不保存音訊，不會自動修改術語庫。</p></details>
+<details><summary>自訂術語庫</summary><p>一行一組：原詞 = 繁中譯詞。套用至所有收音分頁；請避免有多種意思的普通詞。</p><button id="load-terms">讀取目前術語</button><textarea id="terms" rows="7" aria-label="術語庫" placeholder="Faker = 李相赫" disabled></textarea><button id="save-terms" disabled>儲存術語</button><p id="terms-status" role="status"></p></details>
+<details><summary>第一次使用？</summary><ol><li>先啟動電腦上的 MosaSub 服務。</li><li>播放影片，選擇要收音的分頁。</li><li>點擊翻譯；字幕設定可選中文、原文或雙字幕。</li></ol><p>若選了另一個分頁，請前往該頁再點一次 MosaSub 圖示授權收音。</p></details>
+</main><script src="popup.js" type="module"></script></html>

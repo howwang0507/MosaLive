@@ -1,0 +1,43 @@
+{
+  "name": "mosalive-desktop",
+  "productName": "MosaLive",
+  "version": "0.4.0",
+  "description": "MosaLive 本機即時字幕（Windows 桌面版）",
+  "author": "MingHao Wang (howwang0507)",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test \"test/*.test.*\"",
+    "dist": "electron-builder --win nsis",
+    "dist:dir": "electron-builder --dir"
+  },
+  "devDependencies": {
+    "electron": "45.2.3",
+    "electron-builder": "26.18.1"
+  },
+  "build": {
+    "appId": "io.github.howwang0507.mosalive",
+    "productName": "MosaLive",
+    "directories": { "output": "../dist/desktop", "buildResources": "build" },
+    "files": ["main.js", "preload.js", "lib/**", "renderer/**", "build/icon.png", "package.json"],
+    "extraResources": [
+      { "from": "..", "to": "runtime", "filter": [
+        "server.mjs", "quality.mjs", "glossary.json", "asr_glossary.json", "package.json",
+        "THIRD_PARTY_NOTICES.md", "licenses/**", "extension/manifest.json",
+        "web/*.html", "web/*.js", "web/*.css", "web/*.json", "web/*.wav",
+        "windows/*.py", "windows/requirements.txt"
+      ] }
+    ],
+    "win": { "target": [{ "target": "nsis", "arch": ["x64"] }], "icon": "build/icon.png" },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "MosaLive",
+      "artifactName": "MosaLive-Setup-${version}.${ext}"
+    }
+  }
+}

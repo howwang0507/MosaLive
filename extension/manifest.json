@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "MosaSub Live 校園原型",
+  "version": "0.3.6",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "activeTab",
+    "tabCapture",
+    "offscreen",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://localhost:8787/*"
+  ],
+  "action": {
+    "default_title": "選擇收音分頁與字幕控制",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "toggle-capture": {"suggested_key":{"default":"Alt+S"},"description":"開始或停止目前分頁收音"},
+    "clear-caption": {"suggested_key":{"default":"Alt+C"},"description":"清除目前字幕"},
+    "cycle-display": {"suggested_key":{"default":"Alt+D"},"description":"切換單語或雙字幕"},
+    "toggle-through": {"description":"切換字幕點擊穿透"}
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}

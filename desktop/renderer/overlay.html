@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'">
+<title>MosaLive 字幕</title>
+<link rel="stylesheet" href="overlay.css">
+</head>
+<body>
+<div id="frame">
+  <div id="bar"><span>拖曳移動・拉邊角調整大小</span><button id="lock" title="鎖定後，滑鼠可以點穿字幕框">鎖定</button></div>
+  <div id="box" aria-live="polite">
+    <div id="original"></div>
+    <div id="translation"></div>
+    <div id="note"></div>
+    <div id="placeholder">字幕會顯示在這裡</div>
+  </div>
+</div>
+<script type="module" src="overlay.js"></script>
+</body>
+</html>

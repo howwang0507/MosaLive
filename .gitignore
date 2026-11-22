@@ -1,0 +1,24 @@
+.venv*/
+.models/
+_cuda_pkgs/
+backups/
+dist/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+.codebase-memory/
+quality/*.jsonl
+quality/*summary.json
+quality/*analysis.json
+quality/*.run.txt
+quality/real/
+*.parquet
+# Downloaded FLEURS files and generated evaluation streams (rebuild with windows/build_fleurs_eval.py)
+.cache/
+quality/eval/
+# Personal voice recordings for positive controls (docs/chat-positive-control.md)
+recordings/
+# Desktop app dependencies (npm install in desktop/)
+node_modules/

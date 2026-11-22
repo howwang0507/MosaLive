@@ -1,0 +1,10 @@
+[
+  {"id":"chat-viewers","source":"Chat, what do you think?","language":"en","reference":"聊天室的各位，你們覺得呢？","checks":"chat 指觀眾，不可譯成查德；不可增加原文沒有的觀點"},
+  {"id":"chad-name","source":"Chad is waiting outside.","language":"en","reference":"Chad 正在外面等。","checks":"Chad 是人名，不可替換為聊天室"},
+  {"id":"english-leak","source":"I really think we should wait for everyone.","language":"en","reference":"我真的覺得我們應該等大家。","checks":"really、think、should、wait、everyone 不可留在譯文"},
+  {"id":"names","source":"I play Minecraft on Twitch.","language":"en","reference":"我在 Twitch 上玩 Minecraft。","checks":"允許保留 Minecraft、Twitch，不可為了純中文刪掉名稱"},
+  {"id":"negation","source":"Do not attack. Wait ten seconds.","language":"en","reference":"不要攻擊，等十秒。","checks":"禁止攻擊和十秒都必須保留"},
+  {"id":"japanese-request","source":"まだ行かないでください。","language":"ja","reference":"請先不要走。","checks":"不可翻成請走或已經走了"},
+  {"id":"korean-time","source":"십 초만 기다려 주세요.","language":"ko","reference":"請等十秒。","checks":"十秒不可變成醋；音訊辨識須另用真實錄音驗證"},
+  {"id":"korean-negation","source":"지금 가지 마세요.","language":"ko","reference":"現在不要去。","checks":"保留否定與現在，不可憑空補上主詞"}
+]

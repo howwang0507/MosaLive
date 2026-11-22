@@ -1,0 +1,17 @@
+html, body { margin: 0; height: 100%; background: transparent; overflow: hidden; }
+body { font-family: "Microsoft JhengHei", "Noto Sans TC", "Segoe UI", sans-serif; user-select: none; }
+#frame { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; border-radius: 12px; }
+body.unlocked #frame { -webkit-app-region: drag; outline: 2px dashed rgba(255, 200, 61, .9); outline-offset: -2px; background: rgba(20, 24, 31, .25); }
+#bar { display: none; justify-content: space-between; align-items: center; padding: 6px 10px; color: #fff; font-size: 13px; text-shadow: 0 1px 2px #000; }
+body.unlocked #bar { display: flex; }
+#lock { -webkit-app-region: no-drag; background: #FFC83D; color: #14181F; border: 0; border-radius: 6px; padding: 3px 12px; font-family: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+#box { margin: 0 auto 8px; max-width: calc(100% - 16px); padding: .25em .7em .3em; border-radius: 10px; text-align: center; color: #fff;
+  background: rgba(0, 0, 0, var(--bg, .7)); font-size: var(--size, 30px); line-height: 1.3; text-shadow: 0 1px 3px rgba(0, 0, 0, .9); }
+#box.empty { background: transparent; }
+#original { font-size: .72em; color: #D5DBE2; }
+#translation { font-weight: 700; }
+#box.draft #translation, #box.draft #original { opacity: .82; }
+#note { font-size: .5em; color: #FFC83D; }
+#original:empty, #translation:empty, #note:empty { display: none; }
+#placeholder { display: none; font-size: .6em; color: #fff; opacity: .8; }
+body.unlocked #box.empty #placeholder { display: block; }

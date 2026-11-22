@@ -1,0 +1,178 @@
+{
+  "samples": [
+    {
+      "id": "en-real-0",
+      "language": "en",
+      "path": "quality/real/en_us-0.wav",
+      "source": "However, due to the slow communication channels, styles in the west could lag behind by 25 to 30 year.",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 1904,
+      "split": "test",
+      "row": 0,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "en-real-1",
+      "language": "en",
+      "path": "quality/real/en_us-1.wav",
+      "source": "All nouns, alongside the word Sie for you, always begin with a capital letter, even in the middle of a sentence.",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 1675,
+      "split": "test",
+      "row": 1,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "en-real-2",
+      "language": "en",
+      "path": "quality/real/en_us-2.wav",
+      "source": "To the north and within easy reach is the romantic and fascinating town of Sintra and which was made famous to foreigners after a glowing account of its splendours recorded by Lord Byron.",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 1950,
+      "split": "test",
+      "row": 2,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "en-real-3",
+      "language": "en",
+      "path": "quality/real/en_us-3.wav",
+      "source": "The cabbage juice changes color depending on how acidic or basic (alkaline) the chemical is.",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 1728,
+      "split": "test",
+      "row": 3,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "ja-real-0",
+      "language": "ja",
+      "path": "quality/real/ja_jp-0.wav",
+      "source": "インターネットで「敵対的環境コース」について検索すると、おそらく現地企業の住所が出てくるでしょう。",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 1828,
+      "split": "test",
+      "row": 0,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "ja-real-1",
+      "language": "ja",
+      "path": "quality/real/ja_jp-1.wav",
+      "source": "また、北側に行くなら世界的に有名なマリア像の聖地であるファティマの聖母の聖域（神社）を訪れましょう。",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 1834,
+      "split": "test",
+      "row": 1,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "ja-real-2",
+      "language": "ja",
+      "path": "quality/real/ja_jp-2.wav",
+      "source": "バルセロナの公用語はカタルーニャ語とスペイン語です。約半数がカタルーニャ語を好み、大多数がカタルーニャ語を理解し、ほぼ全員がスペイン語を知っています。",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 1813,
+      "split": "test",
+      "row": 2,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "ja-real-3",
+      "language": "ja",
+      "path": "quality/real/ja_jp-3.wav",
+      "source": "その長い顎には70本以上の鋭い歯が並び、口蓋には別の歯列があり、つまりここを通ったら逃げ道はないということになります。",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 1869,
+      "split": "test",
+      "row": 3,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "ko-real-0",
+      "language": "ko",
+      "path": "quality/real/ko_kr-0.wav",
+      "source": "다리 밑 수직 간격은 15미터이며, 공사는 2011년 8월에 마무리되었으며, 해당 다리의 통행금지는 2017년 3월까지이다.",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 1883,
+      "split": "test",
+      "row": 0,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "ko-real-1",
+      "language": "ko",
+      "path": "quality/real/ko_kr-1.wav",
+      "source": "델 포트로가 2세트에서 먼저 어드밴티지를 얻었지만 6 대 6이 된 후 다시 타이 브레이크가 필요했다.",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 1929,
+      "split": "test",
+      "row": 1,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "ko-real-2",
+      "language": "ko",
+      "path": "quality/real/ko_kr-2.wav",
+      "source": "염소 사육은 대략 일만 년 전에 이란의 자그로스산맥에서 시작한 것으로 보입니다.",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 1701,
+      "split": "test",
+      "row": 2,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "ko-real-3",
+      "language": "ko",
+      "path": "quality/real/ko_kr-3.wav",
+      "source": "겨울에 북발트해를 건널 경우에는 빙판을 통과하면서 꽤 끔찍한 소음이 발생하기 때문에, 객실의 위치를 확인하는 것이 좋다.",
+      "reference_translation": null,
+      "kind": "human-read-speech",
+      "dataset": "google/fleurs",
+      "dataset_id": 2000,
+      "split": "test",
+      "row": 3,
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "sources": [
+    {
+      "config": "en_us",
+      "url": "https://huggingface.co/datasets/google/fleurs/resolve/refs%2Fconvert%2Fparquet/en_us/test/0000.parquet",
+      "sha256": "6428a4d04d3aac29e16b45e039bb1470a8bd7aa334cf92f7984c9c520d1f234d"
+    },
+    {
+      "config": "ja_jp",
+      "url": "https://huggingface.co/datasets/google/fleurs/resolve/refs%2Fconvert%2Fparquet/ja_jp/test/0000.parquet",
+      "sha256": "e954b67e934b9a31d7a74a070a75225379660d50c8d1aacdb755852c57f23e6b"
+    },
+    {
+      "config": "ko_kr",
+      "url": "https://huggingface.co/datasets/google/fleurs/resolve/refs%2Fconvert%2Fparquet/ko_kr/test/0000.parquet",
+      "sha256": "1a8319fc61c7996e8c15acde633786de97054e28ae1e463eb13901716176a7ec"
+    }
+  ],
+  "note": "Google FLEURS, CC-BY-4.0. First 4 test rows per en_us/ja_jp/ko_kr. Human read speech, not Twitch. Audio converted to mono 16k PCM16; original reference text retained."
+}

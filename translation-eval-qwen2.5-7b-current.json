@@ -1,0 +1,94 @@
+{
+  "model": "qwen2.5:7b",
+  "note": "8 authored diagnostic sentences, manual semantic review required; not a percentage accuracy score.",
+  "profile": "current source+reference+glossary",
+  "results": [
+    {
+      "key": "ja-greeting",
+      "source": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+      "reference_meaning": "大家好。今天把日文直播翻成中文。",
+      "translation": "各位，你好。今天，我將把日語的直播翻譯成中文。",
+      "wall_ms": 473,
+      "done_reason": "stop"
+    },
+    {
+      "key": "ja-negation",
+      "source": "まだ攻撃しないで。味方が来るまで、あと10秒待ってください。",
+      "reference_meaning": "先不要攻擊，再等10秒直到隊友到來。",
+      "translation": "還請再等待10秒鐘。等盟友來了再攻擊。",
+      "wall_ms": 390,
+      "done_reason": "stop"
+    },
+    {
+      "key": "ja-time",
+      "source": "昨日は負けましたが、今日はまだ一度も負けていません。",
+      "reference_meaning": "昨天輸了，但今天還沒輸過。",
+      "translation": "昨天輸了，但是今天還沒有輸過。",
+      "wall_ms": 225,
+      "done_reason": "stop"
+    },
+    {
+      "key": "ko-greeting",
+      "source": "여러분 안녕하세요. 오늘은 한국어 방송을 중국어로 번역합니다.",
+      "reference_meaning": "大家好。今天把韓文直播翻成中文。",
+      "translation": "各位您好。今天我們將把韓語直播翻譯成中文。",
+      "wall_ms": 316,
+      "done_reason": "stop"
+    },
+    {
+      "key": "ko-negation",
+      "source": "지금 공격하지 마세요. 우리 팀이 올 때까지 10초만 기다려 주세요.",
+      "reference_meaning": "現在不要攻擊，請等10秒直到隊友到來。",
+      "translation": "請不要現在攻擊。請等我們隊伍再過10秒。",
+      "wall_ms": 369,
+      "done_reason": "stop"
+    },
+    {
+      "key": "ko-time",
+      "source": "어제는 졌지만 오늘은 아직 한 번도 지지 않았어요.",
+      "reference_meaning": "昨天輸了，但今天還沒輸過。",
+      "translation": "昨天輸了，但今天還沒有輸過。",
+      "wall_ms": 222,
+      "done_reason": "stop"
+    },
+    {
+      "key": "en-negation",
+      "source": "Do not use your ultimate yet. Wait ten seconds for our teammate.",
+      "reference_meaning": "先不要使用大絕，等隊友10秒。",
+      "translation": "不要使用你的大絕。等十秒鐘，等我們的隊友。",
+      "wall_ms": 378,
+      "done_reason": "stop"
+    },
+    {
+      "key": "en-number",
+      "source": "We need two more points, not twenty. The match ends in three minutes.",
+      "reference_meaning": "還需要2分，不是20分；比賽3分鐘後結束。",
+      "translation": "我們只需要再兩分，不要二十分。比賽還剩三分鐘。",
+      "wall_ms": 337,
+      "done_reason": "stop"
+    }
+  ],
+  "loaded_models": {
+    "models": [
+      {
+        "name": "qwen2.5:7b",
+        "model": "qwen2.5:7b",
+        "size": 4628519320,
+        "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-09-08T14:17:14.7876487+08:00",
+        "size_vram": 4628519320,
+        "context_length": 2048
+      }
+    ]
+  }
+}

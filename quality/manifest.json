@@ -1,0 +1,100 @@
+{
+  "note": "Authored synthetic diagnostics, not real-world accuracy. References prepared before inference.",
+  "samples": [
+    {
+      "id": "ja-greeting",
+      "path": "quality/samples/ja-greeting.wav",
+      "source": "皆さん、こんにちは。今日は、日本語の配信を中国語に翻訳します。",
+      "reference_translation": "大家好。今天把日文直播翻成中文。",
+      "kind": "synthetic",
+      "speaker": "ja-JP-NanamiNeural"
+    },
+    {
+      "id": "ja-negation",
+      "path": "quality/samples/ja-negation.wav",
+      "source": "まだ攻撃しないで。味方が来るまで、あと10秒待ってください。",
+      "reference_translation": "先不要攻擊，再等10秒直到隊友到來。",
+      "kind": "synthetic",
+      "speaker": "ja-JP-NanamiNeural"
+    },
+    {
+      "id": "ja-time",
+      "path": "quality/samples/ja-time.wav",
+      "source": "昨日は負けましたが、今日はまだ一度も負けていません。",
+      "reference_translation": "昨天輸了，但今天還沒輸過。",
+      "kind": "synthetic",
+      "speaker": "ja-JP-NanamiNeural"
+    },
+    {
+      "id": "ko-greeting",
+      "path": "quality/samples/ko-greeting.wav",
+      "source": "여러분 안녕하세요. 오늘은 한국어 방송을 중국어로 번역합니다.",
+      "reference_translation": "大家好。今天把韓文直播翻成中文。",
+      "kind": "synthetic",
+      "speaker": "ko-KR-SunHiNeural"
+    },
+    {
+      "id": "ko-negation",
+      "path": "quality/samples/ko-negation.wav",
+      "source": "지금 공격하지 마세요. 우리 팀이 올 때까지 10초만 기다려 주세요.",
+      "reference_translation": "現在不要攻擊，請等10秒直到隊友到來。",
+      "kind": "synthetic",
+      "speaker": "ko-KR-SunHiNeural"
+    },
+    {
+      "id": "ko-time",
+      "path": "quality/samples/ko-time.wav",
+      "source": "어제는 졌지만 오늘은 아직 한 번도 지지 않았어요.",
+      "reference_translation": "昨天輸了，但今天還沒輸過。",
+      "kind": "synthetic",
+      "speaker": "ko-KR-SunHiNeural"
+    },
+    {
+      "id": "en-negation",
+      "path": "quality/samples/en-negation.wav",
+      "source": "Do not use your ultimate yet. Wait ten seconds for our teammate.",
+      "reference_translation": "先不要使用大絕，等隊友10秒。",
+      "kind": "synthetic",
+      "speaker": "en-US-JennyNeural"
+    },
+    {
+      "id": "en-number",
+      "path": "quality/samples/en-number.wav",
+      "source": "We need two more points, not twenty. The match ends in three minutes.",
+      "reference_translation": "還需要2分，不是20分；比賽3分鐘後結束。",
+      "kind": "synthetic",
+      "speaker": "en-US-JennyNeural"
+    },
+    {
+      "id": "dialogue",
+      "path": "quality/samples/dialogue.wav",
+      "kind": "synthetic",
+      "source": "We should wait here. Our teammate will arrive in ten seconds. I agree. Do not attack until everyone is ready. Now everyone is here. We can start the next round.",
+      "reference_translation": "我們應該在這裡等。隊友十秒後到。 我同意。所有人準備好以前不要攻擊。 現在大家都到了。我們可以開始下一輪。",
+      "turns": [
+        {
+          "start": 0.0,
+          "end": 5.016,
+          "speaker": "en-US-JennyNeural"
+        },
+        {
+          "start": 6.016,
+          "end": 10.864,
+          "speaker": "en-US-GuyNeural"
+        },
+        {
+          "start": 11.864,
+          "end": 16.496,
+          "speaker": "en-US-JennyNeural"
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "path": "quality/samples/silence.wav",
+      "kind": "synthetic",
+      "source": "",
+      "reference_translation": ""
+    }
+  ]
+}

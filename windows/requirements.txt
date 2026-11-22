@@ -1,0 +1,9 @@
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+python-multipart>=0.0.18,<1
+numpy>=1.26,<3
+httpx>=0.28,<1
+faster-whisper==1.2.1
+ctranslate2>=4.5,<5
+opencc-python-reimplemented==0.1.7
+sherpa-onnx==1.13.7

@@ -1,0 +1,72 @@
+{
+  "quality/synthetic-0.3.3.json": {
+    "cases": 10,
+    "code_revision": "f160f1911ddb37b1",
+    "pooled_source_cer": 0.042,
+    "first_source_p50_ms": 1673.8,
+    "first_translation_p50_ms": 2761.2,
+    "after_speech_p50_ms": 2067.3,
+    "after_speech_p95_ms": 3300.6,
+    "dropped_audio_ms": 0,
+    "duplicate_finals": 0,
+    "unexpected_speech_cases": 0,
+    "flagged_finals": 0,
+    "note": "Replay diagnostics, not Twitch rendering or a translation accuracy score."
+  },
+  "quality/real-asr-0.3.3.json": {
+    "cases": 12,
+    "code_revision": "f160f1911ddb37b1",
+    "pooled_source_cer": 0.0895,
+    "first_source_p50_ms": 1374.4,
+    "first_translation_p50_ms": null,
+    "after_speech_p50_ms": 1106.5,
+    "after_speech_p95_ms": 1461.3,
+    "dropped_audio_ms": 0,
+    "duplicate_finals": 0,
+    "unexpected_speech_cases": 0,
+    "flagged_finals": 0,
+    "note": "Replay diagnostics, not Twitch rendering or a translation accuracy score."
+  },
+  "quality/fault-transport-0.3.3.json": {
+    "cases": 1,
+    "code_revision": "f160f1911ddb37b1",
+    "pooled_source_cer": 0.0588,
+    "first_source_p50_ms": 1158.8,
+    "first_translation_p50_ms": 2704.9,
+    "after_speech_p50_ms": 1806.5,
+    "after_speech_p95_ms": 1882.8,
+    "dropped_audio_ms": 0,
+    "duplicate_finals": 0,
+    "unexpected_speech_cases": 0,
+    "flagged_finals": 0,
+    "note": "Replay diagnostics, not Twitch rendering or a translation accuracy score."
+  },
+  "quality/fault-ack-0.3.3.json": {
+    "cases": 1,
+    "code_revision": "f160f1911ddb37b1",
+    "pooled_source_cer": 0.0588,
+    "first_source_p50_ms": 1137.1,
+    "first_translation_p50_ms": 2483,
+    "after_speech_p50_ms": 1795.1,
+    "after_speech_p95_ms": 1884.5,
+    "dropped_audio_ms": 0,
+    "duplicate_finals": 0,
+    "unexpected_speech_cases": 0,
+    "flagged_finals": 0,
+    "note": "Replay diagnostics, not Twitch rendering or a translation accuracy score."
+  },
+  "quality/fault-state-0.3.3.json": {
+    "cases": 1,
+    "code_revision": "f160f1911ddb37b1",
+    "pooled_source_cer": 0.0588,
+    "first_source_p50_ms": 1413.7,
+    "first_translation_p50_ms": 2874.8,
+    "after_speech_p50_ms": 1811,
+    "after_speech_p95_ms": 2157.9,
+    "dropped_audio_ms": 0,
+    "duplicate_finals": 0,
+    "unexpected_speech_cases": 0,
+    "flagged_finals": 0,
+    "note": "Replay diagnostics, not Twitch rendering or a translation accuracy score."
+  }
+}
